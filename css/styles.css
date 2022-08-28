@@ -28,7 +28,7 @@ hr {
   border-color: grey;
   border-width: 10px;
   margin-top: 100px;
-  width: 5%;
+  width: 3%;
   /* Color */
   /* Text */
   /* Other */
@@ -38,11 +38,14 @@ hr {
 h1 {
   /*Group by Properties*/
   /*Display & Box Model*/
+  line-height: 2;
   margin: 50px auto 0 auto;
   /* Color */
+  color: #66BFBF;
   /* Text */
   font-family: 'Cookie' , cursive;
   font-size: 7rem;
+  font-weight: normal;
   /* Other */
 
 }
@@ -51,6 +54,7 @@ h2 {
   /*Group by Properties*/
   /*Display & Box Model*/
   /* Color */
+  color: #66BFBF;
   /* Text */
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem; /*Note, we wanted 40px. 1em = 16px. Quick maths. 40/16=2.5*/
@@ -61,12 +65,13 @@ h3 {
   /*Group by Properties*/
   /*Display & Box Model*/
   /* Color */
+  color: #11999E;
   /* Text */
   font-family: 'Montserrat', sans-serif;
   /* Other */
 }
 
-/*****************Class Style*****************************/
+/*****************Class Styles*****************************/
 
 .top-container {
   /*Group by Properties*/
@@ -133,4 +138,43 @@ h3 {
   /* Color */
   /* Text */
   /* Other */
+}
+
+.skill-row {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+  /* Color */
+  /* Text */
+  line-height: 2;
+  /* Other */
+}
+
+.coding-skill {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.data-skill {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.contact-me {
+  margin-top: 300px;
 }
