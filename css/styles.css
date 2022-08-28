@@ -1,0 +1,136 @@
+
+div {background-color:  #E4F9F5}
+/*Group by Properties*/
+/*Display & Box Model*/
+/* Color */
+/* Text */
+/* Other */
+
+
+body {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  margin: 0;
+  /* Color */
+  /* Text */
+  font-family: 'Roboto Slab' , serif;
+  font-size: 2em;
+  text-align: center; /*Centers everything inside the container, in this case body*/
+  /* Other */
+}
+
+
+hr {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  margin-top: 100px;
+  width: 5%;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+
+h1 {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  margin: 50px auto 0 auto;
+  /* Color */
+  /* Text */
+  font-family: 'Cookie' , cursive;
+  font-size: 7rem;
+  /* Other */
+
+}
+
+h2 {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; /*Note, we wanted 40px. 1em = 16px. Quick maths. 40/16=2.5*/
+  /* Other */
+}
+
+h3 {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  font-family: 'Montserrat', sans-serif;
+  /* Other */
+}
+
+/*****************Class Style*****************************/
+
+.top-container {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  /* Other */
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+
+.top-cloud {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  /* Other */
+  position: relative; top: 1px; left: 180px;
+}
+
+.bottom-cloud {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  /* Other */
+  position: absolute;
+}
+
+.toronto {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  height: auto;
+  width: 40%;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.profile-pic {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+    padding-top: 200px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.skills {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+    padding-top: 100px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+
+.coding-skill {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+    padding-top: 100px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
