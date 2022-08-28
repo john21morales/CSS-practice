@@ -44,7 +44,7 @@ h1 {
   color: #66BFBF;
   /* Text */
   font-family: 'Cookie' , cursive;
-  font-size: 7rem;
+  font-size: 10rem;
   font-weight: normal;
   /* Other */
 
@@ -57,7 +57,7 @@ h2 {
   color: #66BFBF;
   /* Text */
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem; /*Note, we wanted 40px. 1em = 16px. Quick maths. 40/16=2.5*/
+  font-size: 5rem; /*Note, we wanted 40px. 1em = 16px. Quick maths. 40/16=2.5*/
   /* Other */
 }
 
@@ -71,7 +71,132 @@ h3 {
   /* Other */
 }
 
+h5 {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  color: #EAF6F6;
+  /* Text */
+  font-family: 'Montserrat', sans-serif;
+  /* Other */
+}
+
 /*****************Class Styles*****************************/
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+}
+
+.bottom-cloud {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  /* Other */
+  position: absolute;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-me {
+  margin-top: 300px;
+}
+
+.coding-skill {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  padding-top: 100px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.data-skill {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.footer-link {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  color: #11999E;
+  /* Text */
+  /* Other */
+}
+
+.middle-container {
+  padding-bottom: 100px;
+}
+.profile-pic {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+    padding-top: 200px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.social-links {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+.skills {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+    padding-top: 100px;
+  /* Color */
+  /* Text */
+  /* Other */
+}
+
+
+.skill-row {
+  /*Group by Properties*/
+  /*Display & Box Model*/
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+  /* Color */
+  /* Text */
+  line-height: 2;
+  /* Other */
+}
+
 
 .top-container {
   /*Group by Properties*/
@@ -93,14 +218,6 @@ h3 {
   position: relative; top: 1px; left: 180px;
 }
 
-.bottom-cloud {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-  /* Color */
-  /* Text */
-  /* Other */
-  position: absolute;
-}
 
 .toronto {
   /*Group by Properties*/
@@ -110,71 +227,4 @@ h3 {
   /* Color */
   /* Text */
   /* Other */
-}
-
-.profile-pic {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-    padding-top: 200px;
-  /* Color */
-  /* Text */
-  /* Other */
-}
-
-.skills {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-    padding-top: 100px;
-  /* Color */
-  /* Text */
-  /* Other */
-}
-
-
-.coding-skill {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-    padding-top: 100px;
-  /* Color */
-  /* Text */
-  /* Other */
-}
-
-.skill-row {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-
-  /* Color */
-  /* Text */
-  line-height: 2;
-  /* Other */
-}
-
-.coding-skill {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  /* Color */
-  /* Text */
-  /* Other */
-}
-
-.data-skill {
-  /*Group by Properties*/
-  /*Display & Box Model*/
-  width: 25%;
-  float: right;
-  margin-right: 30px;
-  /* Color */
-  /* Text */
-  /* Other */
-}
-
-.contact-me {
-  margin-top: 300px;
 }
