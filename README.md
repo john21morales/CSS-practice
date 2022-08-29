@@ -1,4 +1,5 @@
 # CSS-practice
 
-First iteration was just to set up the pages.
-Second iteration was to clean up the the webpage by adding CSS properties like centering, float etc to the HTML backbone.
+A site made to practice HTML and CSS.
+
+Also can be used to share when applying to jobs, if I have not made a better portfolio website before doing side projects.
